@@ -26,7 +26,7 @@
     'company': 'D-Business Consulting',
     'maintainer': 'D-Business Consulting',
     'website': 'https://d-business-consulting.ma',
-    'category': 'Sales,Purchases',
+    'category': 'Sales,Purchases,Accounting,Extra Tools',
     'version': '16.0.1.0.0',
 
     'depends': ['base'],
