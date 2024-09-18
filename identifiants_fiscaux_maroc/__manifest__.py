@@ -34,7 +34,7 @@
     'data': [
         'views/view.xml'
     ],
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/banner.jpg'],
     'license': 'LGPL-3',
     'installable': True,
     'auto_install': False,
