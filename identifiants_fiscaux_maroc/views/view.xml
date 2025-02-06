@@ -8,7 +8,10 @@
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
            <xpath expr="//field[@name='vat']" position="replace">
-                <field name="cin" />
+                <field name="supplier_rank" invisible="1"/>
+                <field name="cin" invisible="supplier_rank != 0" />
+                <field name="vat" invisible="1"/>
+
             </xpath>
             
             <xpath expr="//group[@name='misc']" position="replace">

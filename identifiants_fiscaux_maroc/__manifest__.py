@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Identifiants fiscaux maroc",
-
+    'version': '3.0',
     'summary': """
     
         Ce module Odoo permet d'ajouter six nouveaux champs importants dans la fiche client : 
